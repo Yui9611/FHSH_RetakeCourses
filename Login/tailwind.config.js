@@ -13,7 +13,7 @@ export default {
 
     },
     colors: {
-      'Bule':' #003399',
+      'Blue':' #003399',
       'White':' #f8fafc',
     },
   },
