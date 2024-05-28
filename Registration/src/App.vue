@@ -3,7 +3,7 @@ import Item from "/src/components/Item.vue";
 </script>
 
 <template>
-  <div class="bg-White w-dvw h-fit min-h-dvh p-5">
+  <div class="bg-White w-dvw h-fit min-h-dvh py-5">
     <div class="flex">
       <img class="w-16 h-12" src="\src\assets\lit_logo.png" />
       <p class="font-semibold text-Blue text-3xl pt-3">

@@ -1,5 +1,5 @@
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
+import LogIn from "./components/LogIn.vue";
 </script>
 
 <template>
@@ -20,9 +20,7 @@ import HelloWorld from "./components/HelloWorld.vue";
           class="flex w-240 h-12 m-5 p-2 border-2 rounded-2xl"
           placeholder="請輸入身份證號碼"
         />
-        <button class="bg-Blue mt-5 p-2 px-3 text-White font-semibold">
-          登入
-        </button>
+        <LogIn />
       </div>
     </div>
   </div>
