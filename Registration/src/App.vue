@@ -7,7 +7,7 @@ import Item from "/src/components/Item.vue";
     <div class="flex">
       <img class="w-16 h-12" src="\src\assets\lit_logo.png" />
       <p class="font-semibold text-Blue text-3xl pt-3">
-        復興高中重補修點名系統
+        復興高中重補修報名系統
       </p>
     </div>
     <div class="bg-Blue">
