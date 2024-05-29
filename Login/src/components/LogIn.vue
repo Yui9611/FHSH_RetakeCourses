@@ -1,4 +1,8 @@
-<script setup></script>
+<script setup>
+const google_login_callback = (response) => {
+  console.log("Handle the response", response);
+};
+</script>
 
 <template>
   <a
@@ -6,6 +10,7 @@
     href="Registration.html"
     >登入</a
   >
+  <GoogleLogin :callback="google_login_callback" />
 </template>
 
 <style scoped></style>
