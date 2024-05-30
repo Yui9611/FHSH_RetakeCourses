@@ -1,5 +1,6 @@
 <script setup>
 import Item from "/src/components/Item.vue";
+import Head from "/src/components/Head.vue";
 </script>
 
 <template>
@@ -10,21 +11,9 @@ import Item from "/src/components/Item.vue";
         復興高中重補修報名系統
       </p>
     </div>
-    <div class="bg-Blue">
-      <div class="flex justify-center">
-        <p class="text-White text-sm font-semibold">開始日期:</p>
-        <p class="text-White text-sm font-semibold">開始時間:</p>
-      </div>
-      <div class="flex justify-center">
-        <p class="text-White text-sm font-semibold">結束日期:</p>
-        <p class="text-White text-sm font-semibold">結束時間:</p>
-      </div>
-      <p class="text-White text-sm font-semibold">結果公布日期:</p>
-      <p class="text-White text-sm font-semibold">注意事項:</p>
-    </div>
+    <Head></Head>
     <div class="">
       <Item></Item>
-      <div class="flex justify-between"></div>
     </div>
   </div>
 </template>
