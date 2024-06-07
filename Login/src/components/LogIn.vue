@@ -13,12 +13,12 @@ const google_login_callback = async (response) => {
 </script>
 
 <template>
-  <button
+  <!-- <button
     class="bg-Blue mt-5 p-2 px-3 rounded-xl text-White font-semibold"
     href="Registration.html"
   >
     登入
-  </button>
+  </button> -->
   <GoogleLogin :callback="google_login_callback" />
 </template>
 
