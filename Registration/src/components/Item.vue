@@ -15,7 +15,7 @@ const subjects = {
 
 <template>
   <div
-    class="h-fit border border-slate-300 rounded-2xl p-3 m-6 flex flex-wrap justify-center"
+    class="h-fit border border-slate-300 rounded-2xl p-3 m-6 flex flex-wrap justify-start"
   >
     <div class="flex p-2">
       <div class="bg-Blue w-1 rounded m-1"></div>
